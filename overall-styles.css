@@ -1,0 +1,822 @@
+.site-header {
+	
+	
+}
+
+
+.elementor-element.elementor-element-4403b03{
+
+}
+
+.elementor-element.elementor-element-4403b0 a:active {
+	color: white;
+}
+
+.elementor-element.elementor-element-079c8d9 a:active{
+	background-color: red
+	color: green !important;
+}
+
+a {
+  color: inherit;
+}
+
+
+
+
+.ekit-template-content-header {
+	background-color: #222222;
+	min-height: 96px;
+/* 	font-family:
+-apple-system,
+BlinkMacSystemFont,
+"Segoe UI",
+Roboto,
+Helvetica,
+Arial,
+sans-serif !important */
+font-display; swap;	
+	 /* Font metric overrides to prevent CLS */
+  ascent-override: 90%;
+  descent-override: 22%;
+  line-gap-override: 0%;
+  size-adjust: 100%;
+}
+
+
+@font-face {
+/*   font-family: 'Poppins';
+  src: local('Poppins'); */
+  font-display: swap;
+
+
+  ascent-override: 90%;
+  descent-override: 22%;
+  line-gap-override: 0%;
+  size-adjust: 100%;
+}
+
+/* header,
+.ekit-header,
+.elementskit-navbar {
+  background-color: #111 !important;
+} */
+
+.header-section{
+	font-family:
+-apple-system,
+BlinkMacSystemFont,
+"Segoe UI",
+Roboto,
+Helvetica,
+Arial,
+sans-serif !important;
+}
+
+/* ------BEGIN */
+/* Lock overall header height */
+header,
+.ekit-header,
+.elementskit-navbar {
+  min-height: 96px;
+}
+
+/* Prevent menu font swap CLS */
+.elementskit-navbar-nav > li > a {
+  min-height: 42px;
+  line-height: 42px;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+/* Stabilize dropdown container */
+.elementskit-dropdown {
+  position: absolute;
+  top: 100%;
+}
+
+/* .elementskit-navbar-nav > li {
+  position: relative;
+}
+
+
+.elementskit-dropdown {
+  transition: none !important;
+  animation: none !important;
+}
+
+@font-face {
+  font-display: block;
+}
+
+.elementskit-menu-container {
+  visibility: visible !important;
+}
+
+.elementskit-navbar-nav {
+  min-height: 42px;
+}
+ */
+
+/* ------END */
+
+html, body {
+	background-color: #222222;
+	overflow-x: hidden;
+}
+
+
+
+
+.fixed-bg-scroll {
+	
+  background-attachment:       fixed !important;
+  background-size: cover      	!important;
+  background-position: center   !important;
+
+}
+
+.tableButton{
+	color: blue;
+	background-color: red;
+}
+
+#tableButton1{
+	background-color: yellow;
+	color: blue;	
+	margin:0;
+	text-decoration: none;
+		
+}
+
+.table-header {
+	text-align: start;
+	color: white;
+}
+
+.table-outer-border{
+	
+	
+}
+
+.table-header-row{
+	background-color: #FFD518;
+	
+}
+
+.table-row2 {
+	background-color: #F2F2F2;
+}
+
+.table-row1 {
+	background-color: white;
+}
+
+.table-button {
+	background-color: lightgreen;
+}
+
+.table-button:hover{
+		background-color: #E7BF09;
+}
+
+
+/* Base Card Style */
+.pricing-card {
+  
+  
+  transition: all 0.3s ease;
+  
+}
+
+/* Hover Effect */
+.pricing-card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 0 35px rgba(140, 82, 255, 0.6);
+}
+
+
+
+/* Main Card */
+.popular-plan-wrapper {
+  
+   padding: 5px;
+  
+  box-shadow: 0 0 30px rgba(168, 85, 247, 0.6);
+  border: 2px solid #a855f7;
+}
+
+/* Popular Plan Bar */
+.popular-plan-card {   
+	height: 100%;
+    
+ 
+  letter-spacing: 2px;
+}
+
+/* Title */
+.popular-plan-wrapper .elementor-icon-box-title {
+    
+}
+
+/* Description */
+.popular-plan-wrapper .elementor-icon-box-description {
+  
+}
+
+/* Icon List */
+.popular-plan-wrapper .elementor-icon-list-item {
+  
+}
+
+/* Check Icons */
+.popular-plan-wrapper .elementor-icon-list-icon {
+  
+}
+
+/* Hover Effect */
+.popular-plan-wrapper:hover {
+  transform: translateY(-8px);
+  transition: 0.3s ease;
+}
+
+.table-heading-mobile{
+  height: 23vh;
+	writing-mode: vertical-rl;
+}
+
+
+.yellow-header-banner {
+  background: linear-gradient(to right, #FDCA00 0%, #FDCA00 40%, #2A2A2A 80%, #222222 85%, #222222 100%);
+}
+
+.cv-featured-image-border .pt-cv-thumbnail {
+    position: relative;
+    background: #fdca00; 
+    border-radius: 22px;
+    padding: 10px; 
+}
+
+/* .post-navigation{
+	background-color: green;
+
+} */
+/* .navigation{
+	background-color: red;
+	
+} */
+
+/* .nav-previous a{
+	 
+} */
+
+.single .post-navigation a {
+	color: #29DD00;
+}
+.ast-page-builder-template .comments-area {
+    background-color: #2E2E2E;
+	  color: white;
+	margin-bottom:0;
+	margin-top:0;
+	border: none;
+}
+
+/* .ast-page-builder-template .comment-respond {
+    color:lightgray;
+	background-color: brown;
+} */
+
+.comment-reply-title{
+	color:white;
+}
+
+/* .comment-form{
+	background-color: grey;
+} */
+
+/* .ast-row comment-textarea{
+	background-color: yellow;
+} */
+
+/* .comments-area .comment-form-comment {
+    width: 100%;
+    border: none;
+    margin: 0;
+    padding: 0;
+	background-color: yellow;
+	
+} */
+.comment-form-textarea textarea {
+   background-color: #606060;
+	border-radius:15px !important;
+	border: 1px solid gray;
+	color: white;
+	
+}
+
+.comment-form-textarea textarea::placeholder {
+    color: whitesmoke;
+    opacity: 1; /* Important for Firefox */
+}
+color: white;
+}
+
+
+.comment-form {
+  display: grid;
+}
+
+.ast-comment-form .form-submit {
+  grid-column: auto !important;
+  width: auto !important;
+}
+
+body .comments-area textarea#comment,
+body .comments-area .ast-comment-formwrap input[type="text"] {
+  background-color: #606060;
+	border-radius:15px !important;
+	border: 1px solid gray;
+	color: white;
+}
+
+body .comments-area textarea#comment,
+body .comments-area .ast-comment-formwrap input[type="text"]::placeholder {
+    color: whitesmoke;
+    opacity: 1; /* Important for Firefox */
+}
+
+body .comment-form .form-submit {
+  grid-column: auto !important;
+  width: fit-content !important;
+  justify-self: flex-start;
+	border-radius: 7px;
+}
+
+.form-submit{
+	background-color: #29DD00;
+}
+
+#comments .submit {
+    padding: 10px 15px;    
+    line-height: 1.8;
+    border-radius: 7px;
+	background-color: #29DD00;
+}
+
+#comments .submit:hover {    
+    background-color: #FFCC00; 
+}
+
+.ast-reply-link a{
+	color: white;
+}
+
+.comments-title{
+	color: white;
+}
+
+.ast-comment-time .timendate a{
+	color: white !important;
+}
+
+.ast-comment-cite-wrap{
+	color:white;
+}
+/* =======End Comment section */
+
+.ast-page-builder-template.single .post-navigation {
+    padding-bottom: 0em;
+	margin-top:-3%;
+	background-color: #2E2E2E;
+	padding-bottom: 2%;
+}
+
+
+
+/*   .pt-cv-content-item {
+	border-bottom: 4px solid grey;
+	background-color: green;
+} */
+
+
+
+.pt-cv-thumb-wrapper::before {
+  content: "";
+  position: absolute;
+
+  /* push cut-out to top & left */
+  top: 0;
+  left: 0;
+  right: 16px;
+  bottom: 16px;
+
+  background: #000;           /* inner background */
+  border-radius: 10px;
+  z-index: 0;
+}
+
+/* 	border-radius: 130px !important; */
+	 
+ 
+
+ 
+.pt-cv-thumbnail{
+position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px !important;
+  z-index: 1;
+	transform: translate(-16px, -16px);
+	
+	
+	display: block;
+  width: 100%;
+  height: auto;
+
+  transform-origin: bottom right;   /* anchor point */
+  transform: scale(1.07);           /* adjust scale */
+
+  transition: transform 0.01s ease;
+	
+}
+
+/* ---------
+ .pt-cv-thumb-wrapper{
+	position: relative;
+  display: inline-block;
+  border-radius: 10px;
+  background: #000;
+  z-index: 0;  
+}
+
+ .pt-cv-thumb-wrapper::after{
+	  content: "";
+  position: absolute;
+  inset: 0;
+  background: #2cff00;        
+  border-radius: 10px;
+  transform: translate(10px, 10px);
+  z-index: -1;
+}
+--------- */
+.pt-cv-thumbnail{
+	 display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+.pt-cv-content-item:nth-child(odd) .pt-cv-thumb-wrapper {
+  border-radius: 10px;
+    overflow: hidden; */
+	position: relative;
+  border-radius: 16px;     /* outer radius */
+  padding: 14px;           /* border thickness */
+  background: #FFCC00; 
+}
+
+.pt-cv-content-item:nth-child(even) .pt-cv-thumb-wrapper {
+  border-radius: 10px;
+    overflow: hidden; */
+	position: relative;
+  border-radius: 16px;     /* outer radius */
+  padding: 14px;           /* border thickness */
+  background: #29DD00; 
+}
+
+/* .elementor-1946 .elementor-element.elementor-element-9255ba6 .wl-nav-menu--dropdown {
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #999999;
+    background-color: #363636;
+	
+} */
+
+
+
+/* ---------------------- */
+.elementor-1946 .elementor-element.elementor-element-5d300c0 .elementinvader-addons-for-elementor .wl-nav-menu--dropdown{
+	background-color: #222222;
+}
+
+/* The short horizontal line next to commercial and residential */
+.elementinvader-addons-for-elementor .wl-nav-menu--dropdown span{
+/* 	background-color: transparent; */
+	width: 60px;
+    height: 0;
+}
+
+/* /Vertical border on the left of the caret */
+.elementinvader-addons-for-elementor .wl-nav-menu--dropdown .menu-item.menu-item-has-children>a .eli-caret {
+   
+    top: 0;
+    right: 0;   
+    height: 100%;
+background:transparent!important;     
+	border-left: none !important;
+}
+
+/* /Dropdown */
+.elementor-1946 .elementor-element.elementor-element-5d300c0 .elementinvader-addons-for-elementor .wl-nav-menu--dropdown {
+	background-color: #504E4E;
+    border-radius:20px 20px 20px 20px !important;
+    border: none;
+}
+
+/* /Menu options on the dropdown when active */
+.elementor-1946 .elementor-element.elementor-element-5d300c0 .elementinvader-addons-for-elementor .wl-nav-menu--dropdown a.wl-item-active {
+    color: #FDCA00;
+    background-color: #363636;
+    border-radius: 0px 0px 0px 0px !important;
+}
+
+#service-selector-modal{
+	display: none;
+	animation: fadeIn 5s ease forwards;
+	
+	@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+}
+
+
+
+
+
+/* ===== BEGIN MOBILE MENU */
+
+/* MENU CONTAINER */
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 85%;
+  height: 100vh;
+  background: #222222;
+  color: #fff;
+  overflow: hidden;
+  z-index: 9999;
+  font-family: Poppins;
+}
+
+/* PANELS STACKED */
+.menu-panel {
+  position: absolute;
+  top: 0;
+  left: 100%;   /* hidden to right */
+  width: 100%;
+  height: 100%;
+  background: #222222;
+  
+	 transition: transform .45s cubic-bezier(0.32, 0.72, 0, 1);
+}
+
+/* ACTIVE PANEL */
+.menu-panel.active {
+  transform: translateX(-100%);
+}
+
+/* FIRST PANEL VISIBLE */
+#menu-main {
+  left: 0;
+  transform: translateX(0);
+}
+
+/* MENU ITEMS */
+.menu-panel ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-panel li {
+  padding: 18px 20px;
+  border-bottom: 1px solid rgba(255,255,255,.15);
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+/* HEADER */
+.menu-header {
+  display: flex;
+  align-items: center;
+  padding: 18px;
+  border-bottom: 1px solid rgba(255,255,255,.07);
+}
+
+.menu-header h3 {
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+.back {
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.arrow {
+  opacity: .6;
+}
+
+
+/* =========================
+   UNIFY MENU FONT STYLE
+========================= */
+
+/* reset list items */
+.mobile-menu li {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: inherit;
+    line-height: 1.4;
+    color: #ffffff;
+}
+
+/* make links behave like normal text */
+.mobile-menu li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: inherit;
+    font-weight: inherit;
+    font-family: inherit;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/* ensure spacing identical */
+.mobile-menu li,
+.mobile-menu li a {
+    letter-spacing: 0.3px;
+}
+
+/* remove browser tap highlight differences */
+.mobile-menu li a:visited,
+.mobile-menu li a:active,
+.mobile-menu li a:focus {
+    color: #ffffff;
+}
+
+/* keep arrow aligned */
+.mobile-menu .open-submenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* ===============================
+   HAMBURGER ICON
+================================ */
+.hamburger {
+  width: 52px;
+  height: 34px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  z-index: 10001;
+}
+
+.hamburger span {
+  height: 6px;
+  background: #ffffff;
+  border-radius: 3px;
+  display: block;
+}
+
+/* ===============================
+   OVERLAY BACKGROUND
+================================ */
+#menuOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.65);
+  backdrop-filter: blur(4px);
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s ease;
+  z-index: 9998;
+}
+
+/* ===============================
+   MOBILE MENU INITIAL STATE
+================================ */
+.mobile-menu {
+  transform: translateX(-100%);
+  transition: transform .35s ease;
+  z-index: 9999;
+}
+
+/* MENU OPEN STATE */
+.mobile-menu.open {
+  transform: translateX(0);
+}
+
+#menuOverlay.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* ===============================
+   CLOSE (X) BUTTON
+================================ */
+.menu-close {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  font-size: 26px;
+  color: #ffffff;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+
+/* =====================================
+   SUBMENU TITLE (Commercial Services etc)
+===================================== */
+
+.mobile-menu .menu-header h3 {
+    color: rgba(255,255,255,0.35); /* soft faded white */
+    font-weight: 500;
+    letter-spacing: 0.3px;
+}
+
+/* back arrow color */
+.mobile-menu .menu-header .back {
+    color: rgba(255,255,255,0.75);
+}
+
+
+/* =====================================
+   SOFT DIVIDER LINES
+===================================== */
+
+/* menu item separators */
+.mobile-menu li {
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+/* header divider */
+.mobile-menu .menu-header {
+    border-bottom: 1px solid rgba(255,255,255,0.10);
+}
+
+
+/* =====================================
+   OPTIONAL — PREMIUM SOFT LOOK
+===================================== */
+
+/* subtle hover feedback */
+.mobile-menu li:hover {
+    background: rgba(255,255,255,0.04);
+}
+
+/* smoother text rendering */
+.mobile-menu {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+
+
+/* =========================
+   CLICK / ACTIVE ITEM COLOR
+========================= */
+
+.mobile-menu li:active,
+.mobile-menu li.active-item {
+    background-color: #363636;
+}
+
+/* links inside */
+.mobile-menu li a:active {
+    background-color: #363636;
+}
+
+
+
+
+
+
+
+
+
+
+/* ====== END MOBILE MENU */
+
+
+
+
+
+
+/* @media (min-width: 545px) {} */
+
